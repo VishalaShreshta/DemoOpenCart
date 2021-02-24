@@ -1,110 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-24T18:41:02Z" name="Default suite" finished-at="2021-02-24T18:43:18Z" duration-ms="136668">
+  <suite started-at="2021-02-24T18:48:07Z" name="Default suite" finished-at="2021-02-24T18:50:14Z" duration-ms="126126">
     <groups>
     </groups>
-    <test started-at="2021-02-24T18:41:02Z" name="Default test" finished-at="2021-02-24T18:43:18Z" duration-ms="136668">
+    <test started-at="2021-02-24T18:48:07Z" name="Default test" finished-at="2021-02-24T18:50:14Z" duration-ms="126126">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:41:02Z" name="setUp" finished-at="2021-02-24T18:41:36Z" duration-ms="33854" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:48:07Z" name="setUp" finished-at="2021-02-24T18:48:42Z" duration-ms="34168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:41:36Z" name="verifyLoginPageTitle" finished-at="2021-02-24T18:41:36Z" duration-ms="167" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [My Account] but found [Account Login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [My Account] but found [Account Login]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.qa.opencart.tests.LoginPageTest.verifyLoginPageTitle(LoginPageTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:48:42Z" name="verifyLoginPageTitle" finished-at="2021-02-24T18:48:42Z" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:41:36Z" name="tearDown" finished-at="2021-02-24T18:41:37Z" duration-ms="1152" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:48:42Z" name="tearDown" finished-at="2021-02-24T18:48:43Z" duration-ms="1277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:41:37Z" name="setUp" finished-at="2021-02-24T18:42:03Z" duration-ms="25678" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:48:43Z" name="setUp" finished-at="2021-02-24T18:49:04Z" duration-ms="21063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNewCustomerBtn()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:03Z" name="verifyNewCustomerBtn" finished-at="2021-02-24T18:42:03Z" duration-ms="413" status="PASS">
+        <test-method signature="verifyNewCustomerBtn()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:04Z" name="verifyNewCustomerBtn" finished-at="2021-02-24T18:49:04Z" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewCustomerBtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:03Z" name="tearDown" finished-at="2021-02-24T18:42:04Z" duration-ms="1027" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:04Z" name="tearDown" finished-at="2021-02-24T18:49:05Z" duration-ms="939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:04Z" name="setUp" finished-at="2021-02-24T18:42:25Z" duration-ms="20914" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:05Z" name="setUp" finished-at="2021-02-24T18:49:25Z" duration-ms="19739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyForgotPwdLink()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:25Z" name="verifyForgotPwdLink" finished-at="2021-02-24T18:42:25Z" duration-ms="62" status="PASS">
+        <test-method signature="verifyForgotPwdLink()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:25Z" name="verifyForgotPwdLink" finished-at="2021-02-24T18:49:25Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPwdLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:25Z" name="tearDown" finished-at="2021-02-24T18:42:26Z" duration-ms="1444" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:25Z" name="tearDown" finished-at="2021-02-24T18:49:26Z" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:26Z" name="setUp" finished-at="2021-02-24T18:42:49Z" duration-ms="22897" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:26Z" name="setUp" finished-at="2021-02-24T18:49:46Z" duration-ms="19828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterAccntText()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:49Z" name="verifyRegisterAccntText" finished-at="2021-02-24T18:42:49Z" duration-ms="93" status="PASS">
+        <test-method signature="verifyRegisterAccntText()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:46Z" name="verifyRegisterAccntText" finished-at="2021-02-24T18:49:46Z" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccntText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:49Z" name="tearDown" finished-at="2021-02-24T18:42:51Z" duration-ms="1150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:46Z" name="tearDown" finished-at="2021-02-24T18:49:47Z" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:42:51Z" name="setUp" finished-at="2021-02-24T18:43:12Z" duration-ms="20927" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:49:47Z" name="setUp" finished-at="2021-02-24T18:50:08Z" duration-ms="20742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userLogin()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:43:12Z" name="userLogin" finished-at="2021-02-24T18:43:16Z" duration-ms="4174" status="PASS">
+        <test-method signature="userLogin()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:50:08Z" name="userLogin" finished-at="2021-02-24T18:50:12Z" duration-ms="4540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:43:16Z" name="tearDown" finished-at="2021-02-24T18:43:18Z" duration-ms="2597" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4416d64f]" started-at="2021-02-24T18:50:12Z" name="tearDown" finished-at="2021-02-24T18:50:14Z" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
