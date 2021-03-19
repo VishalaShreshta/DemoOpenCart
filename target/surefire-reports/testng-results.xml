@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TN Test automtion regression suite" duration-ms="0" started-at="2021-03-19T03:59:51Z" finished-at="2021-03-19T03:59:51Z">
+    <groups>
+    </groups>
+  </suite> <!-- TN Test automtion regression suite -->
+</testng-results>
