@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TN Test automtion regression suite" parallel="tests"
+<suite name="OpenCart Test automation regression suite" parallel="tests"
 	thread-count="6">
 
 	<listeners>
 		<listener
 			class-name="com.qa.opencart.testlisteners.ExtentReportListener" />
 		<listener
-			class-name="com.qa.opencart.testlisteners.TestAllureListener" />	
+			class-name="com.qa.opencart.testlisteners.TestAllureListener" />
 		<listener
 			class-name="com.qa.opencart.testlisteners.TesultsListener" />
-					
 	</listeners>
 
-	<test name="LoginPage Test_FF_80">
+	<test name="LoginPage Test_Chrome_88">
 		<parameter name="browser" value="chrome" />
-		<parameter name="version" value="80" />
+		<parameter name="version" value="88" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>

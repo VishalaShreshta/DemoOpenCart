@@ -4,7 +4,9 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.qa.opencart.pages.AccountsPage;
@@ -17,16 +19,16 @@ public class BaseTest {
 	public BasePage basePage;
 	public LoginPage loginPage;
 	public AccountsPage accountsPage;
-	public ProductInfoPage productInfoPage;
-	
-	
+	public ProductInfoPage productInfoPage;	
 	
 	public Properties prop;
 	public WebDriver driver;
 	
-	@BeforeMethod
-	@Parameters({"browser","version"})
+	@Parameters({"browser","version"})	
+	@BeforeTest
 	public void setUp(String browserName, String browserVersion) {
+		
+		System.out.println("browserName is: "+browserName + " "+browserVersion);
 		
 		basePage = new BasePage();
 		prop = basePage.init_prop();
@@ -41,7 +43,7 @@ public class BaseTest {
 		
 	}
 	
-	@AfterMethod
+	@AfterTest
 	public void tearDown() {		
 		driver.quit();
 	}
