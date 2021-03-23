@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="TN Test automtion regression suite" duration-ms="0" started-at="2021-03-21T16:22:11Z" finished-at="2021-03-21T16:22:11Z">
+  <suite name="OpenCart Test automation regression suite" duration-ms="133947" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:03:49Z">
     <groups>
     </groups>
-  </suite> <!-- TN Test automtion regression suite -->
+    <test name="LoginPage Test_Chrome_87" duration-ms="98473" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:03:13Z">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="setUp" is-config="true" duration-ms="75796" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="verifyLoginPageTitleTest" duration-ms="2291" started-at="2021-03-23T10:02:51Z" finished-at="2021-03-23T10:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifyNewCustomerBtnTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="verifyNewCustomerBtnTest" duration-ms="1613" started-at="2021-03-23T10:02:55Z" finished-at="2021-03-23T10:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCustomerBtnTest -->
+        <test-method status="PASS" signature="verifyForgotPwdLinkTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="verifyForgotPwdLinkTest" duration-ms="1795" started-at="2021-03-23T10:02:57Z" finished-at="2021-03-23T10:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdLinkTest -->
+        <test-method status="PASS" signature="verifyRegisterAccntTextTest()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="verifyRegisterAccntTextTest" duration-ms="156" started-at="2021-03-23T10:02:59Z" finished-at="2021-03-23T10:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccntTextTest -->
+        <test-method status="PASS" signature="userLoginTest()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="userLoginTest" duration-ms="12322" started-at="2021-03-23T10:02:59Z" finished-at="2021-03-23T10:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@4b6ac111]" name="tearDown" is-config="true" duration-ms="2170" started-at="2021-03-23T10:03:11Z" finished-at="2021-03-23T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- LoginPage Test_Chrome_87 -->
+    <test name="AccountsPage Test_Chrome_88" duration-ms="107355" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:03:22Z">
+      <class name="com.qa.opencart.tests.AccountsPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="setUp" is-config="true" duration-ms="75829" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:02:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccountsPageSetUp()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="AccountsPageSetUp" is-config="true" duration-ms="19127" started-at="2021-03-23T10:02:51Z" finished-at="2021-03-23T10:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountsPageSetUp -->
+        <test-method status="PASS" signature="accountPageHeaderTest()[pri:1, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="accountPageHeaderTest" duration-ms="2781" started-at="2021-03-23T10:03:10Z" finished-at="2021-03-23T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageHeaderTest -->
+        <test-method status="PASS" signature="accountsPageTitleTest()[pri:2, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="accountsPageTitleTest" duration-ms="125" started-at="2021-03-23T10:03:13Z" finished-at="2021-03-23T10:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsPageTitleTest -->
+        <test-method status="PASS" signature="verifyMyAccountSectionsCountTest()[pri:3, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="verifyMyAccountSectionsCountTest" duration-ms="508" started-at="2021-03-23T10:03:13Z" finished-at="2021-03-23T10:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountSectionsCountTest -->
+        <test-method status="PASS" signature="verifyMyAccountsSectionsListTest()[pri:4, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="verifyMyAccountsSectionsListTest" duration-ms="320" started-at="2021-03-23T10:03:14Z" finished-at="2021-03-23T10:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountsSectionsListTest -->
+        <test-method status="PASS" signature="searchTest()[pri:5, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="searchTest" duration-ms="6506" started-at="2021-03-23T10:03:14Z" finished-at="2021-03-23T10:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@312afbc7]" name="tearDown" is-config="true" duration-ms="1811" started-at="2021-03-23T10:03:20Z" finished-at="2021-03-23T10:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
+    </test> <!-- AccountsPage Test_Chrome_88 -->
+    <test name="ProductsInfoPage Test_Chrome_89" duration-ms="133944" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:03:49Z">
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="setUp" is-config="true" duration-ms="75473" started-at="2021-03-23T10:01:35Z" finished-at="2021-03-23T10:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ProductsPageSetUp()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="ProductsPageSetUp" is-config="true" duration-ms="19422" started-at="2021-03-23T10:02:51Z" finished-at="2021-03-23T10:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductsPageSetUp -->
+        <test-method status="PASS" signature="ProductInfoPageTitleTest_iMac()[pri:1, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="ProductInfoPageTitleTest_iMac" duration-ms="14780" started-at="2021-03-23T10:03:10Z" finished-at="2021-03-23T10:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductInfoPageTitleTest_iMac -->
+        <test-method status="PASS" signature="verifyProductInfoTest_MacBook()[pri:2, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="verifyProductInfoTest_MacBook" duration-ms="11159" started-at="2021-03-23T10:03:26Z" finished-at="2021-03-23T10:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoTest_MacBook -->
+        <test-method status="PASS" signature="verifyProductInfoTest_iMac()[pri:3, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="verifyProductInfoTest_iMac" duration-ms="9775" started-at="2021-03-23T10:03:37Z" finished-at="2021-03-23T10:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoTest_iMac -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2d7e1102]" name="tearDown" is-config="true" duration-ms="1424" started-at="2021-03-23T10:03:47Z" finished-at="2021-03-23T10:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </test> <!-- ProductsInfoPage Test_Chrome_89 -->
+  </suite> <!-- OpenCart Test automation regression suite -->
 </testng-results>

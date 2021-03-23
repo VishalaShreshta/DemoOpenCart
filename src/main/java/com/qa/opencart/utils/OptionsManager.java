@@ -19,14 +19,14 @@ public class OptionsManager {
 	public ChromeOptions getChromeOptions() {
 		co = new ChromeOptions();
 		if(prop.getProperty("headless").trim().equals("true")) co.addArguments("--headless");		
-		if(prop.getProperty("incongnito").trim().equals("true")) co.addArguments("--incongnito");
+		if(prop.getProperty("incognito").trim().equals("true")) co.addArguments("--incognito");
 		return co;
 	}
 	
 	public FirefoxOptions getFirefoxOptions() {
 		fo = new FirefoxOptions();
 		if(prop.getProperty("headless").trim().equals("true")) fo.addArguments("--headless");		
-		if(prop.getProperty("incongnito").trim().equals("true")) fo.addArguments("--incongnito");
+		if(prop.getProperty("incognito").trim().equals("true")) fo.addArguments("--incognito");
 		return fo;
 	}
 	

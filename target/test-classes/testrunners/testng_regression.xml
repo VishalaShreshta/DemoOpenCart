@@ -13,11 +13,27 @@
 			class-name="com.qa.opencart.testlisteners.TesultsListener" />
 	</listeners>
 
-	<test name="LoginPage Test_Chrome_88">
+	 <test name="LoginPage Test_Chrome_87" verbose="2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="87" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	 <test name="AccountsPage Test_Chrome_88" verbose="2">
 		<parameter name="browser" value="chrome" />
 		<parameter name="version" value="88" />
 		<classes>
-			<class name="com.qa.opencart.tests.LoginPageTest" />
+			<class name="com.qa.opencart.tests.AccountsPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ProductsInfoPage Test_Chrome_89" verbose="2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="89" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
 	</test>
 

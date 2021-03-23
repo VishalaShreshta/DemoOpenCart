@@ -69,11 +69,10 @@ public class BasePage {
 			
 			if(Boolean.parseBoolean("remote")) {
 				init_remoteDriver("firefox", browserVersion);
-			}else {
-				
+			}else {				
+				//driver = new FirefoxDriver();
+				tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));				
 			}
-			//driver = new FirefoxDriver();
-			tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
 			
 		} else if(browser.equalsIgnoreCase("safari")) {
 			

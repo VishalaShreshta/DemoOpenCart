@@ -23,7 +23,7 @@ public class AccountsPage {
 	private By accntPageSubHeaders = By.cssSelector("div#content h2");
 	private By accntPageSearchText = By.cssSelector("div#search input[name='search']");
 	private By searchText = By.cssSelector("div#search input[name='search']");
-	private By searchButton = By.cssSelector("div#search button[type='button]");
+	private By searchButton = By.cssSelector("div#search button[type='button']");
 	private By searchItemsResult = By.cssSelector(".product-layout .product-thumb");
 	private By resultItems = By.cssSelector(".product-thumb h4 a");	
 	private By accntPageSubHeaderLink = By.cssSelector("div#content ul.list-unstyled li");
